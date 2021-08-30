@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: db
+
+
+
+
+
+logging:
+  level:
+    com:
+      example: debug
+  file:
+    name: logs/provider.log
