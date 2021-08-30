@@ -3,9 +3,6 @@ spring:
     active: db
 
 
-
-
-
 logging:
   level:
     com:
