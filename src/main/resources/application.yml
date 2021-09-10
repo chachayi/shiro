@@ -9,3 +9,5 @@ logging:
       example: debug
   file:
     name: logs/provider.log
+server:
+  port: 12345
