@@ -3,6 +3,8 @@ package com.example.shiroredis.entity;
 import com.baomidou.mybatisplus.annotations.TableName;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @Describe：
  * @Date 2021/8/24
@@ -10,7 +12,7 @@ import lombok.Data;
  */
 @Data
 @TableName("Article")
-public class Article{
+public class Article implements Serializable {
     private String title;
     private String content;
     private String createTime;
